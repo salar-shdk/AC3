@@ -33,7 +33,7 @@ nc::NdArray<int> equation = {
 vector<int> action = {1};
 ```
 
-Then Create AC3 object and call calculate.
+Then Create AC3 object and call calculate. the result is in the same type of the input domains.
 ``` cpp
 AC3 ac3(variable_domain, equation, action);
 auto result = ac3.calculate();
